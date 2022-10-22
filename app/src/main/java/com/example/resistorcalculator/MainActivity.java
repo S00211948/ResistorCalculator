@@ -215,5 +215,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         jtvBand3.setBackgroundColor(getColor(R.color.black));
         jtvBand4.setBackgroundColor(getColor(R.color.gold));
         jtvResult.setText("");
+        jspBand1.setSelection(0);
+        jspBand2.setSelection(0);
+        jspBand3.setSelection(0);
+        jspBand4.setSelection(0);
     }
 }

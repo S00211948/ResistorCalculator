@@ -287,4 +287,64 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.25" />
 
+    <TextView
+        android:id="@+id/tvLabelBand1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Band 1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spBand1"
+        app:layout_constraintEnd_toStartOf="@id/guideline8"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvWire1"
+        app:layout_constraintTop_toBottomOf="@id/guideline3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvLabelBand2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Band 2"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spBand2"
+        app:layout_constraintEnd_toStartOf="@id/guideline9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/guideline8"
+        app:layout_constraintTop_toBottomOf="@id/guideline3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvLabelBand3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Band 3"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spBand2"
+        app:layout_constraintEnd_toStartOf="@id/guideline10"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/guideline9"
+        app:layout_constraintTop_toBottomOf="@id/guideline3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvLabelBand4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Band 4"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spBand2"
+        app:layout_constraintEnd_toStartOf="@id/tvWire2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/guideline10"
+        app:layout_constraintTop_toBottomOf="@id/guideline3"
+        app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

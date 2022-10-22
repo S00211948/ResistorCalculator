@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             resistance = Band1*10;
             resistance += Band2;
             resistance = (int) (resistance*(Math.pow(10,Band3)));
-            jtvResult.setText(Integer.toString(resistance) + " Ω ± " + Integer.toString(Band4) + "%");
+            jtvResult.setText(Integer.toString(resistance) + " Ω +/- " + Integer.toString(Band4) + "%");
         }
         else
         {
